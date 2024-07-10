@@ -8,6 +8,8 @@ body {
     margin: 0;
 }
 
+/* code header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -35,5 +37,27 @@ ul {
     gap: 20px;
 }
 
+/* code b1 */
 
+.b1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.b1-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    max-width: 250px;
+    padding: 0;
+}
+
+img {
+    display: flex;
+    flex: 1 0 auto;
+    max-height: 100px;
+}
 
