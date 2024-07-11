@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: Roboto, sans-serif;
+    font-family: roboto, sans-serif;
     margin: 0;
     height: 100vh;
 }
@@ -56,9 +56,37 @@ ul {
 .b1-left {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
-    max-width: 250px;
+    align-items: flex-start;
+    flex: 1 0 auto;
+    max-width: 450px;
     padding: 0;
+    margin: 0;
+}
+
+.text1.b1 {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text2.b1 {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.button.b1 {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 38px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 50px;
 }
 
 img {
