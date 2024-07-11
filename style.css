@@ -7,13 +7,13 @@ body {
     font-family: roboto, sans-serif;
     margin: 0;
     height: 100vh;
+    width: 100vw;
 }
 
 /* code header */
 
 .header {
     display: flex;
-    justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
     padding: 10px 50px;
@@ -33,6 +33,13 @@ a {
     text-decoration: none;
 }
 
+.right-head {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 100px;
+    flex: 1 1 auto;
+}
+
 ul {
     display: flex;
     font-size: 18px;
@@ -43,6 +50,7 @@ ul {
 }
 
 /* code b1 */
+
 
 .b1 {
     display: flex;
@@ -57,10 +65,10 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex: 1 0 auto;
-    max-width: 450px;
+    flex: 1 1 50%;
     padding: 0;
     margin: 0;
+    background-color: #E5E7EB;
 }
 
 .text1.b1 {
