@@ -158,8 +158,9 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #b8b9bb;
+    background-color: #E5E7EB;
     flex: 1 1 auto;
+    padding-top: 40px;
 }
 
 .b3.text1 {
