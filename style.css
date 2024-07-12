@@ -7,7 +7,7 @@ body {
     font-family: roboto, sans-serif;
     margin: 0;
     height: 100vh;
-    width: 100vw;
+    flex: auto;
 }
 
 /* code header */
@@ -16,16 +16,23 @@ body {
     display: flex;
     background-color: #1F2937;
     align-items: center;
+    justify-content: center;
     padding: 10px 50px;
     height: 30px;
+    max-height: 100px;
     flex: 1 1 auto;
+    gap: 20px;
+
 }
 
 .left-head {
     display: flex;
     color: #F9FAF8;
+    min-width: 200px;
+    max-width: 600px;
     font-size: 24px;
     font-weight: bold;
+    flex: 1 0 auto;
 }
 
 a {
@@ -36,8 +43,9 @@ a {
 .right-head {
     display: flex;
     justify-content: flex-end;
-    min-width: 100px;
-    flex: 1 1 auto;
+    min-width: 400px;
+    max-width: 600px;
+    flex: 1 0 auto;
 }
 
 ul {
@@ -57,18 +65,20 @@ ul {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     flex: 1 1 auto;
 }
 
 .b1-left {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    flex: 1 1 50%;
+    align-items:flex-start;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 600px;
+    flex: 1 0 auto;
     padding: 0;
     margin: 0;
-    background-color: #E5E7EB;
 }
 
 .text1.b1 {
@@ -100,7 +110,8 @@ ul {
 img {
     display: flex;
     flex: 1 1 auto;
-    max-height: 100px;
+    min-width: 200px;
+    max-width: 600px;
 }
 
 /* code b2 */
@@ -137,4 +148,5 @@ img {
     align-items: center;
     justify-content: center;
     flex: 1 1 auto;
+    max-height: 120px;
 }
