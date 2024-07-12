@@ -7,7 +7,7 @@ body {
     font-family: roboto, sans-serif;
     margin: 0;
     height: 100vh;
-    flex: auto;
+    flex: 0 1 100%;
 }
 
 /* code header */
@@ -118,8 +118,42 @@ img {
 .b2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex: 1 1 auto;
 }
+
+.b2 p {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+}
+
+.b2-bottom {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.container.b2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 150px;
+    gap: 8px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    color: #1F2937;
+
+
+}
+
+
 
 /* code b3 */
 .b3 {
