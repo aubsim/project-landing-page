@@ -20,7 +20,7 @@ body {
     justify-content: center;
     padding: 10px 50px;
     max-height: 100px;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     gap: 20px;
 
 }
@@ -252,6 +252,6 @@ img {
     color: #e5e7e5;
     align-items: center;
     justify-content: center;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     height: 3vh;
 }
